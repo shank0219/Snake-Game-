@@ -80,7 +80,7 @@ pen.write('Score:0  High score:0', align='center', font=('Courier',24,'normal'))
 pen.goto(0,-290)
 pen.write('done by - gamer',align='right')
 while True:
-
+    bg.update()
 
     # Snake interaction with the border
     if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:
