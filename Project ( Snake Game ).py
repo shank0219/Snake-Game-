@@ -1,4 +1,4 @@
-import turtle
+
 import time
 
 delay=0.1
