@@ -48,6 +48,12 @@ def move():
         x=head.xcor()
         head.setx(x-10)
 
+# Keyboard connections
+bg.listen()
+bg.onkeypress(go_up,'w')
+bg.onkeypress(go_down,'s')
+bg.onkeypress(go_left,'a')
+bg.onkeypress(go_right,'d')
 
 # Snake food
 food=turtle.Turtle()
