@@ -144,7 +144,7 @@ while True:
                 bit.goto(1000, 1000)
 
             # Clearing the bits
-            bits.clear()
+            
 
     time.sleep(delay)
 bg.mainloop()
